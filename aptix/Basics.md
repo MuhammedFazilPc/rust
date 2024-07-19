@@ -12,3 +12,7 @@
 #### Shared Mutable State
    - State initialized inside HttpServer::new is local to the worker thread and may become de-synced if modified.
    - to make global initialize outside Httpserver::new
+## Guard   
+   -
+## configure
+   -
