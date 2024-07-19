@@ -4,7 +4,7 @@
 ## Scope
    - namespace for all routes
    - HttpServer::new() -> App::new() -> services|-> scope -> routes
-                                                 |->app_data(Data<T>)
+   -                                          |->app_data(Data<T>)
 #### Using an Application Scope to Compose Applications
    - web::scope() method allows setting a resource group prefix
 ## state Data<T>
